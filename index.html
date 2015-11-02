@@ -2,9 +2,101 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Shit Cheat Sheet</title>
+    <link rel="stylesheet" href ="/css/cheat-sheet.css" />
+    <title>Git Git Git Hourras !</title>
   </head>
-  <body>des trucs écrits
+  <body>
+    <h1>Git git git, hourra !</h1>
+
+  <section>
+      <h3>Quoi tu dis? </h3>
+        <p>
+          Pour créer ton site internet, tu as besoin de deux autres outils qui vont de pairs avec Atom. C'est Git et Github.
+          Git est ce qu'on appelle un système de visionning, il enregistre toutes les modifications en HTML et CSS que tu va faire sur ta page. Pour faire simple, c'est une sorte d'historique qui te permet de retourner en arrière, de récupérer des trucs que tu aurais effacés mais que tu veux finalement récupérer etc...
+          Et Github, qui ne peut pas marcher sans Git, est la plus grosse plateforme collaborative au monde. Tous les dev sont dessus. C'est comme un facebook sauf qu'au lieu de mettre des photos de l'anniversaire de mamie wallowall, tu donnes accés aux détails de tes codes. C'est trop cool car c'est grace à cet outil que tu peux faire des travaux de groupe et que tu peux voir les codes des autres pour t'inspirer de mecs plus fortiches que toi.
+        </p>
+  </section>
+
+  <section>
+    <h4>Shit Cheet Sheet !</h4>
+      <p>Comment faire.
+      Création de projet sur Github. serveur en ligne.
+      Dans le terminal, taper :
+
+		cd Desktop/Simplon/Sites/lab
+		mkdir 03_projet_test
+		cd 03 tab
+		git init
+		touch .gitignore
+		touch index.html
+		mkdir css
+		mkdir js
+		git add  * ou git add  * ou git add  -A
+    on peut faire un gitstatus pour voir que tout est ok.
+		git commit -m"fisrt commit"
+
+
+    git add *= tout ajouter sauf dossiers cachés
+    git add -A= tous y compris .git ignore
+
+
+    Puis aprés sur Github, créer un nouveau ripo avec le même nom que le dossier créé dans le lab.
+    licence : none
+    profil : public
+    create repository
+
+    on prend le git remote add origin git@github.com:JulieRouet/03_projet_test.git
+    et le met dans  le terminal
+    puis 	git push -u origin master
+
+      là le lien a été fait entre le dossier sur ton ordi et le ripo sur github.
+
+      Atom  .
+      pour ouvrir le fichier sur atom et commencer à créer notre projet
+      on modifie le projet, on enregistre en faisant cmd S
+
+      dans le terminak :
+      git status
+      git add index.html
+      git commit -m "commentaire"
+
+      créer une branche pour publier sur github page et  envoyer a Hashmi
+
+      banch master
+      gh-pages     create
+
+      pour mettre ma branche par défaut
+      settings
+      branchs
+      gh-pages
+      update
+
+dans mon terminal
+git branch gh-pages   (pour créer ma banche sur mon ordi)
+git branch     (pour qu'il m'affiche ttes les branches)
+git checkout gh-pages (pour changer de banche et définir gh-pages comme branche effective)
+git status (pour vérifier où on en est)
+
+retourner sur le ripo
+dans la branche pour vérrifier qu'on a bien fait les modifications sur la bonne branche.
+
+pour aller voir ma page
+je vais dans settings sur github
+je descends
+et je vois githubpage avec une adresse c'est cette adresse que je dois envoyer à Hascmi
+clique drit ouvrir dans un nouvel onglet
+et j'ai mon site qui s'affiche
+
+
+pour faire add et commit et push sur atome git plus pui cmd S
+
+cmd shift h attention même commande que prevew dc changer le raccourcis clavier.
+</p>
+</section>
+
+
+
+
 
   </body>
 </html>
