@@ -14,9 +14,32 @@
 
 h1  {
   text-align: center;
-  font-size: 32px;
+  font-size: 70px;
   font-family : 'Daydreamer';
   text-align : center;
+}
+
+
+/* balises H */
+h4 {
+  text-align: left;
+  font-size: 32px;
+  font-family : 'Daydreamer';
+}
+
+/* pictures */
+img {
+   width: 80%;
+   margin-left: auto;
+   margin-right: auto }
+ }
+
+
+/* background block colors  Class*/
+
+.titre {
+  font-size: 40px;
+  font-family : 'BodoniXT';
 }
 
 /* section */
@@ -28,6 +51,7 @@ section {
   height: auto;
   background-color: white
   }
+
 
 p {
      font-size: 32px;
@@ -47,6 +71,13 @@ p {
          margin-left: 10px;
      }
 
+.creation {
+position: absolute;left: 10px;
+padding: 3px 3x;
+width: 600px;
+height: auto;
+background-color: pink;
+ }
    /*  div */
 
      div {
@@ -58,6 +89,11 @@ p {
          background-color: #fff;
          color: #000;
      }
+
+     div p {
+       font-size: 22px;
+      font-family : 'Times';
+    }
      /* background block colors  Class*/
 
 /* pink */
