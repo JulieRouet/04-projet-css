@@ -3,8 +3,10 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href ="css/cheat-sheet.css" />
-    <link rel="icon" type="image/png" href="favicon.png"> <!-- ad favicon -->
-    <link rel="stylesheet" type="text/css" href="mobile.css" media="screen and (max-width:768px") />
+    <link rel="icon" type="img/png" href="img/favicon-looser.png"> <!-- ad favicon -->
+    <link rel="stylesheet" type="text/css" href="mobile.css"/>
+    <link rel="stylesheet" type="text/css" href="mobile.css" media="screen and (max-width:768px)"/>
+    <link rel="stylesheet" type="text/css" href="mobile.css" media="screen and (max-width:1024px)"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, zoom=1" />
     <title>Git Git Git Hourras !</title>
   </head>
@@ -14,12 +16,12 @@
     </header>
     <section>
       <p class="titre"> Quoi tu dis?</p>
-      <p>
-        Pour créer ton site internet, tu as besoin de deux autres outils qui vont de pairs avec Atom. C'est Git et Github.
-        Git est ce qu'on appelle un système de versionning, il enregistre toutes les modifications en HTML et CSS que tu va faire sur ta page. Pour faire simple, c'est une sorte d'historique qui te permet de retourner en arrière, de récupérer des trucs que tu aurais effacés mais que tu veux finalement récupérer etc...
-        Et Github, qui ne peut pas marcher sans Git, est la plus grosse plateforme collaborative au monde. Tous les dev sont dessus. C'est comme un facebook sauf qu'au lieu de mettre des photos de l'anniversaire de mamie wallowall, tu donnes accés aux détails de tes codes.</p>
+      <p class="introduction">
+        Pour créer ton site internet, tu as besoin de deux autres outils qui vont de pairs avec Atom. C'est git et github.
+        git est ce qu'on appelle un système de versionning, il enregistre toutes les modifications en HTML et CSS que tu va faire sur ta page. Pour faire simple, c'est une sorte d'historique qui te permet de retourner en arrière, de récupérer des trucs que tu aurais effacés mais que tu veux finalement récupérer etc...
+        Et github, qui ne peut pas marcher sans git, est la plus grosse plateforme collaborative au monde. Tous les dev sont dessus. C'est comme un facebook sauf qu'au lieu de mettre des photos de l'anniversaire de mamie wallowall, tu donnes accés aux détails de tes codes.</p>
       <img src="img/anniversaire-mamie-wallowall.png" alt="anniversaire-mamie-wallowall">
-      <p>
+      <p class="introduction">
         C'est trop cool car c'est grace à cet outil que tu peux faire des travaux de groupe et que tu peux voir les codes des autres pour t'inspirer de mecs plus fortiches que toi.</p>
     </section>
     <section>
@@ -84,10 +86,25 @@
       </div>
     </section>
     <section class="creation">
-      <p><span>Cloner un ripo</span></p>
-      <p>$ git clone ssh://users@domaine.com/repo.git</p>
-      <p><span>Créer un nouveau ripo en local</span></p>
-      <p>$ git init</p>
+      <title> creation </title>
+      <p>Cloner un ripo</p>
+      <p><code>git clone ssh://users@domaine.com/repo.git</code></p>
+      <p>Créer un nouveau ripo en local</p>
+      <p><code>git init</code></p>
+    </section>
+    <section class="changements">
+      <title> Changements locaux</title>
+      <p>Changer un fichier de dossier</p>
+      <p><code>git status</code></p>
+      <p>Ajouter un changement dans le commit</p>
+      <p><code>git status</code></p>
+    </section>
+    <section class="branch">
+      <title> Changements locaux</title>
+      <p>Changer un fichier de dossier</p>
+      <p><code>git status</code></p>
+      <p>Ajouter un changement dans le commit</p>
+      <p><code>git status</code></p>
     </section>
 </body>
 </html>
