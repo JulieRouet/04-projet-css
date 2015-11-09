@@ -1,30 +1,28 @@
 @media screen {
 
-@font - face {
-  font-family : 'BodoniXT';
-  src : url('BodoniXT.ttf');
-  }
-@font - face {
+/* typo */
 
-  font-family : 'Daydreamer';
-  src : url('Daydreamer - copie.tff');
+@font-face {
+  font-family : "BodoniXT";
+  src : url("BodoniXT.ttf");
   }
 
 /* header */
 
 h1  {
-  color: yellow;
+  color: red;
   text-align: center;
-  font-size: 4.375em;
-  font-family : 'Daydreamer';
+  font-size: 2.000em;
+  font-family : "Times";
 }
 
 
 /* balises H */
 h4 {
   text-align: left;
-  font-size: 2.000em;
-  font-family : 'Daydreamer';
+  font-size: 0.900em;
+  font-family : "Times";
+  font-weight: none;
 }
 
 /* pictures */
@@ -39,8 +37,9 @@ img {
 /* background block colors  Class*/
 
 .titre {
-  font-size: 2.500em;
-  font-family : 'BodoniXT';
+  font-size: 1.200em;
+  font-family : "BodoniXT";
+  
 }
 
 /* section */
@@ -54,27 +53,27 @@ section {
   }
 
 .introduction {
-     font-size:2.000em;
-     font-family: 'Daydreamer';
+     font-size:	0.500em;
+     font-family: "Times";
      text-align: center;
     }
 
 p {
-     font-size: 2.000em;
-     font-family : 'Daydreamer';
+     font-size: 0,724em;
+     font-family : "arial";
      text-align; left;
      margin-left: 10px;
     }
 
  code {
          background-color: #000;
-         border-radius: 50px;
+         border-radius: 25px;
          color: white;
-         padding: 5px 15px;
+         padding: 3px 10px;
          font-family: menlo, monospace;
-         font-size: 1.250em;
-         margin-right: 10px;
-         margin-left: 10px;
+         font-size: 0.500em;
+         margin-right: 5px;
+         margin-left: 5px;
      }
 
 .creation {
@@ -104,8 +103,8 @@ background-color: pink;
      }
 
      div p {
-       font-size: 22px;
-      font-family : 'Times';
+       font-size: 0.500em;
+      font-family : "Times";
     }
      /* background block colors  Class*/
 
