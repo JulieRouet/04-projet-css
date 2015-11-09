@@ -77,20 +77,6 @@ p {
          margin-left: 10px;
      }
 
-.creation {
-position: absolute;left: 10px;
-padding: 3px 3x;
-width: 600px;
-height: auto;
-background-color: pink;
- }
-.changements {
- position: absolute;left: 10px;
- padding: 3px 3x;
- width: 600px;
- height: auto;
- background-color: yellow;
-  }
    /*  div */
 
      div {
@@ -104,9 +90,10 @@ background-color: pink;
      }
 
      div p {
-       font-size: 22px;
+       font-size: 0.8em;
       font-family : 'Times';
     }
+
      /* background block colors  Class*/
 
 /* pink */

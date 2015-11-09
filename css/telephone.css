@@ -86,25 +86,13 @@ p {
          word-wrap: break-word;
      }
 
-.creation {
-position: absolute;left: 10px;
-padding: 3px 3x;
-width: 600px;
-height: auto;
-background-color: pink;
- }
-.changements {
- position: absolute;left: 10px;
- padding: 3px 3x;
- width: 600px;
- height: auto;
- background-color: yellow;
+
   }
    /*  div */
 
      div {
          position: relative;
-         margin: auto 0;
+         margin: 5px;
          width: 100%;
          padding-top: 10px;
          padding-bottom: 10px;
@@ -119,10 +107,10 @@ background-color: pink;
      /* background block colors  Class*/
 
 /* pink */
-.pink { background-color: #ffc2ee; color: #6c2a5a; }
+.pink { background-color: #ffc2ee; color: #6c2a5a; padding-top: 10px; padding-bottom: 10px;}
 .pink code { background-color: #fff; color: #6c2a5a; }
 
 /* green */
-.green { background-color: #87fee1; color: #235045; }
+.green { background-color: #87fee1; color: #235045; margin: 5px; padding-top: 10px; padding-bottom: 10px;}
 .green code{ background-color: #fff; color: #235045; }
 }
