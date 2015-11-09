@@ -1,122 +1,236 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, zoom=1" />
 
-    <link rel="icon" type="img/png" href="img/favicon-looser.png"/> <!-- ad favicon -->
+<head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, zoom=1" />
 
-    <link rel="stylesheet" media="screen and (max-width: 540px)" href="css/telephone.css" type="text/css" />
-    <link rel="stylesheet" media="screen and (min-width: 1024px)" href="css/cheat-sheet.css" type="text/css" />
+     <link rel="icon" type="img/png" href="img/favicon-looser.png" />
+     <!-- ad favicon -->
 
-
-    <title>Git Git Git Hourras !</title>
-  </head>
-  <body>
-    <header>
-      <h1>git git git, hourra !</h1>
-    </header>
+     <link rel="stylesheet" media="screen and (max-width: 540px)" href="css/telephone.css" type="text/css" />
+     <link rel="stylesheet" media="screen and (min-width: 1024px)" href="css/cheat-sheet.css" type="text/css" />
 
 
-    <section>
-      <p class="titre"> Quoi tu dis?</p>
-      <p class="introduction">
-        Pour créer ton site internet, tu as besoin de deux autres outils qui vont de pairs avec Atom. C'est git et github.
-        git est ce qu'on appelle un système de versionning, il enregistre toutes les modifications en HTML et CSS que tu va faire sur ta page. Pour faire simple, c'est une sorte d'historique qui te permet de retourner en arrière, de récupérer des trucs que tu aurais effacés mais que tu veux finalement récupérer etc...
-        Et github, qui ne peut pas marcher sans git, est la plus grosse plateforme collaborative au monde. Tous les dev sont dessus. C'est comme un facebook sauf qu'au lieu de mettre des photos de l'anniversaire de mamie wallowall, tu donnes accés aux détails de tes codes.</p>
-      <img src="img/anniversaire-mamie-wallowall.png" alt="anniversaire-mamie-wallowall">
-      <p class="introduction">
-        C'est trop cool car c'est grace à cet outil que tu peux faire des travaux de groupe et que tu peux voir les codes des autres pour t'inspirer de mecs plus fortiches que toi.</p>
-    </section>
+     <title>Git Git Git Hourras !</title>
+</head>
 
-    <!-- deuxieme section -->
-    <section>
-      <h3 class="titre">Shit Cheet Sheet !</h3>
-      <h4>Comment faire? Création de projet avec git et github.</h4>
-      <p>Dans le terminal, taper :</p>
-      <div class="pink">
-        <p><code>cd Desktop/Simplon/Sites/lab</code>
-          <description>Entrer dans mon dossier.</description></p>
+<body>
+     <header>
+          <h1>git git git, hourra !</h1>
+     </header>
 
-        <p><code>mkdir 03_projet_test</code>
-          <description>Créer mon dossier 03...</description></p>
 
-        <p><code>cd 03 tab</code>
-          <description>Entrer dans mon dossier 03...</description></p>
+     <section>
+          <p class="titre"> Quoi tu dis?</p>
+          <p class="introduction">
+               Pour créer ton site internet, tu as besoin de deux autres outils qui vont de pairs avec Atom. C'est git et github. git est ce qu'on appelle un système de versionning, il enregistre toutes les modifications en HTML et CSS que tu va faire sur ta page. Pour
+               faire simple, c'est une sorte d'historique qui te permet de retourner en arrière, de récupérer des trucs que tu aurais effacés mais que tu veux finalement récupérer etc... Et github, qui ne peut pas marcher sans git, est la plus grosse
+               plateforme collaborative au monde. Tous les dev sont dessus. C'est comme un facebook sauf qu'au lieu de mettre des photos de l'anniversaire de mamie wallowall, tu donnes accés aux détails de tes codes.</p>
+          <img src="img/anniversaire-mamie-wallowall.png" alt="anniversaire-mamie-wallowall">
+          <p class="introduction">
+               C'est trop cool car c'est grace à cet outil que tu peux faire des travaux de groupe et que tu peux voir les codes des autres pour t'inspirer de mecs plus fortiches que toi.</p>
+     </section>
 
-        <p><code>git init</code><description>Initialiser mon dossier dans git.</description></p>
-        <p><code>touch .gitignore</code><description> Créer un fichier .gitignore.</description></p>
-        <p><code>touch index.html</code><description>Créer un fichier index.html.</description></p>
-        <p><code>mkdir css</code><description>Créer un dossier css.</description></p>
-        <p><code>mkdir js</code><description>Créer un dossier js.</description></p>
-        <p><code>git add</code><description>Ajouter les docs.</description></p>
-        <p>ou<code>git add *</code><description>Ajouter tous les docs, même les cachés.</description></p>
-        <p>ou<code>git add  -A</code><description>Ajouter tous les docs, sauf les cachés.</description></p>
-        <p><code>gitstatus</code><description>Pour regarder si tout est bon.</description></p>
-        <p><code>git commit -m"fisrt commit"</code><description>Faire un commit sur git et nommer se commit.</description></p>
-      </div>
-      <p>Aller sur github:</p>
-      <div class="green">
-        <p><code>+ new repository</code><description>Créer ripo avec le même nom que le dossier du lab.</description></p>
-        <p>Cocher<code>licence "none"</code></p>
-        <p>Cocher<code>Profil "public"</code></p>
-        <p>Cocher<code>"Create repository"</code></p>
-        <p><code>"+ new repository"</code><description>Créer ripo avec le même nom que le dossier du lab.</description></p>
-        <p>Copier le lien<code>git remote add origin git@github.com:JulieR/03_projet_test.git</code></p>
-      </div>
-      <p>Aller dans votre terminal:</p>
-      <div class="pink">
-        <p>Coller le lien<code>git remote add origin git@github.com:JulieR/03_projet_test.git</code></p>
-        <p><code>git add</code><description>pour faire le lien entre git et github.</description></p>
-        <p><code>git push -u origin master</code><description>Le lien a été fait.</description></p>
-        <p><code>git status</code><description>Pour tout vérifier.</description></p>
-        <p><code>Atom .</code><description>Pour ouvrir le dossier sur Atom.</description></p>
-      </div>
-      <p>Aller sur github:</p>
-      <div class="green">
-        <p>Aller dans<code>branch master</code><description>pour créer une branche.</description></p>
-        <p>Nommer<code>gh-pages</code><code>"Create"</code></p>
-        <p>Cocher<code>Profil "public"</code></p>
-        <p>Aller dans<code>"settings"</code><description>pour mettre ma branche par défaut</description></p>
-        <p><code>"branchs"</code></p>
-        <p><code>"gh-pages"</code></p>
-        <p><code>"update"</code></p>
-      </div>
-      <p>Aller dans votre terminal:</p>
-      <div class="pink">
-        <p><code>git branch gh-pages</code><description>Pour créer ma banche sur mon ordi.</description></p>
-        <p><code>git branch</code><description>Pour qu'il m'affiche toutes les branches.</description></p>
-        <p><code>git checkout gh-pages</code><description>pour changer de banche et définir gh-pages comme branche effective.</description></p>
-        <p><code>git status</code><description>Pour vérifier où on en est.</description></p>
-        <p><code>Atom .</code><description>Pour ouvrir le dossier sur Atom.</description></p>
-      </div>
-      <p>Retourner sur votre ripo dans github, pour vérrifier qu'on a bien fait les modifications sur la bonne branche:</p>
-      <div class="green">
-        <p>Aller dans<code>"settings"</code><description>pour aller voir ma page.</description></p>
-        <p>Je descends
-        et je vois une adresse. Bravo, c'est cette adresse que je dois envoyer pour qu'on puisse consulter ma page !</p>
-      </div>
-    </section>
-    <section class="creation">
-      <title> creation </title>
-      <p>Cloner un ripo</p>
-      <p><code>git clone ssh://users@domaine.com/repo.git</code></p>
-      <p>Créer un nouveau ripo en local</p>
-      <p><code>git init</code></p>
-    </section>
-    <section class="changements">
-      <title> Changements locaux</title>
-      <p>Changer un fichier de dossier</p>
-      <p><code>git status</code></p>
-      <p>Ajouter un changement dans le commit</p>
-      <p><code>git status</code></p>
-    </section>
-    <section class="branch">
-      <title> Changements locaux</title>
-      <p>Changer un fichier de dossier</p>
-      <p><code>git status</code></p>
-      <p>Ajouter un changement dans le commit</p>
-      <p><code>git status</code></p>
-    </section>
+     <!-- deuxieme section -->
+     <section>
+          <h3 class="titre">Shit Cheet Sheet !</h3>
+          <h4>Comment faire? Création de projet avec git et github.</h4>
+          <p>Dans le terminal, taper :</p>
+          <div class="pink">
+               <p>
+                    <code>cd Desktop/Simplon/Sites/lab</code>
+                    <description>Entrer dans mon dossier.</description>
+               </p>
+
+               <p>
+                    <code>mkdir 03_projet_test</code>
+                    <description>Créer mon dossier 03...</description>
+               </p>
+
+               <p>
+                    <code>cd 03 tab</code>
+                    <description>Entrer dans mon dossier 03...</description>
+               </p>
+
+               <p>
+                    <code>git init</code>
+                    <description>Initialiser mon dossier dans git.</description>
+               </p>
+               <p>
+                    <code>touch .gitignore</code>
+                    <description> Créer un fichier .gitignore.</description>
+               </p>
+               <p>
+                    <code>touch index.html</code>
+                    <description>Créer un fichier index.html.</description>
+               </p>
+               <p>
+                    <code>mkdir css</code>
+                    <description>Créer un dossier css.</description>
+               </p>
+               <p>
+                    <code>mkdir js</code>
+                    <description>Créer un dossier js.</description>
+               </p>
+               <p>
+                    <code>git add</code>
+                    <description>Ajouter les docs.</description>
+               </p>
+               <p>ou
+                    <code>git add *</code>
+                    <description>Ajouter tous les docs, même les cachés.</description>
+               </p>
+               <p>ou
+                    <code>git add -A</code>
+                    <description>Ajouter tous les docs, sauf les cachés.</description>
+               </p>
+               <p>
+                    <code>gitstatus</code>
+                    <description>Pour regarder si tout est bon.</description>
+               </p>
+               <p>
+                    <code>git commit -m"fisrt commit"</code>
+                    <description>Faire un commit sur git et nommer se commit.</description>
+               </p>
+          </div>
+          <p>Aller sur github:</p>
+          <div class="green">
+               <p>
+                    <code>+ new repository</code>
+                    <description>Créer ripo avec le même nom que le dossier du lab.</description>
+               </p>
+               <p>Cocher
+                    <code>licence "none"</code>
+               </p>
+               <p>Cocher
+                    <code>Profil "public"</code>
+               </p>
+               <p>Cocher
+                    <code>"Create repository"</code>
+               </p>
+               <p>
+                    <code>"+ new repository"</code>
+                    <description>Créer ripo avec le même nom que le dossier du lab.</description>
+               </p>
+               <p>Copier le lien
+                    <code>git remote add origin git@github.com:JulieR/03_projet_test.git</code>
+               </p>
+          </div>
+          <p>Aller dans votre terminal:</p>
+          <div class="pink">
+               <p>Coller le lien
+                    <code>git remote add origin git@github.com:JulieR/03_projet_test.git</code>
+               </p>
+               <p>
+                    <code>git add</code>
+                    <description>pour faire le lien entre git et github.</description>
+               </p>
+               <p>
+                    <code>git push -u origin master</code>
+                    <description>Le lien a été fait.</description>
+               </p>
+               <p>
+                    <code>git status</code>
+                    <description>Pour tout vérifier.</description>
+               </p>
+               <p>
+                    <code>Atom .</code>
+                    <description>Pour ouvrir le dossier sur Atom.</description>
+               </p>
+          </div>
+          <p>Aller sur github:</p>
+          <div class="green">
+               <p>Aller dans
+                    <code>branch master</code>
+                    <description>pour créer une branche.</description>
+               </p>
+               <p>Nommer
+                    <code>gh-pages</code>
+                    <code>"Create"</code>
+               </p>
+               <p>Cocher
+                    <code>Profil "public"</code>
+               </p>
+               <p>Aller dans
+                    <code>"settings"</code>
+                    <description>pour mettre ma branche par défaut</description>
+               </p>
+               <p>
+                    <code>"branchs"</code>
+               </p>
+               <p>
+                    <code>"gh-pages"</code>
+               </p>
+               <p>
+                    <code>"update"</code>
+               </p>
+          </div>
+          <p>Aller dans votre terminal:</p>
+          <div class="pink">
+               <p>
+                    <code>git branch gh-pages</code>
+                    <description>Pour créer ma banche sur mon ordi.</description>
+               </p>
+               <p>
+                    <code>git branch</code>
+                    <description>Pour qu'il m'affiche toutes les branches.</description>
+               </p>
+               <p>
+                    <code>git checkout gh-pages</code>
+                    <description>pour changer de banche et définir gh-pages comme branche effective.</description>
+               </p>
+               <p>
+                    <code>git status</code>
+                    <description>Pour vérifier où on en est.</description>
+               </p>
+               <p>
+                    <code>Atom .</code>
+                    <description>Pour ouvrir le dossier sur Atom.</description>
+               </p>
+          </div>
+          <p>Retourner sur votre ripo dans github, pour vérrifier qu'on a bien fait les modifications sur la bonne branche:</p>
+          <div class="green">
+               <p>Aller dans
+                    <code>"settings"</code>
+                    <description>pour aller voir ma page.</description>
+               </p>
+               <p>Je descends et je vois une adresse. Bravo, c'est cette adresse que je dois envoyer pour qu'on puisse consulter ma page !</p>
+          </div>
+     </section>
+     <section class="creation">
+          <title> creation </title>
+          <p>Cloner un ripo</p>
+          <p>
+               <code>git clone ssh://users@domaine.com/repo.git</code>
+          </p>
+          <p>Créer un nouveau ripo en local</p>
+          <p>
+               <code>git init</code>
+          </p>
+     </section>
+     <section class="changements">
+          <title> Changements locaux</title>
+          <p>Changer un fichier de dossier</p>
+          <p>
+               <code>git status</code>
+          </p>
+          <p>Ajouter un changement dans le commit</p>
+          <p>
+               <code>git status</code>
+          </p>
+     </section>
+     <section class="branch">
+          <title> Changements locaux</title>
+          <p>Changer un fichier de dossier</p>
+          <p>
+               <code>git status</code>
+          </p>
+          <p>Ajouter un changement dans le commit</p>
+          <p>
+               <code>git status</code>
+          </p>
+     </section>
 </body>
+
 </html>

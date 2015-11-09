@@ -3,17 +3,17 @@
 /* typo */
 
 @font-face {
-  font-family : "BodoniXT";
+  font-family :"BodoniXT";
   src : url("BodoniXT.ttf");
   }
 
 /* header */
 
 h1  {
-  color: red;
+  color: #ff7cf4;
   text-align: center;
-  font-size: 2.000em;
-  font-family : "Times";
+  font-size: 3.000em;
+  font-family : "BodoniXT";
 }
 
 
@@ -22,8 +22,14 @@ h4 {
   text-align: left;
   font-size: 0.900em;
   font-family : "Times";
-  font-weight: none;
+  font-weight: normal;
 }
+h3 {
+  font-size: 1.2em;
+  font-family : "BodonieXT";
+  font-weight: normal;
+}
+
 
 /* pictures */
 
@@ -37,9 +43,9 @@ img {
 /* background block colors  Class*/
 
 .titre {
-  font-size: 1.200em;
+  font-size: 1.2em;
   font-family : "BodoniXT";
-  
+
 }
 
 /* section */
@@ -53,13 +59,13 @@ section {
   }
 
 .introduction {
-     font-size:	0.500em;
+     font-size:	1em;
      font-family: "Times";
-     text-align: center;
+     text-align: left;
     }
 
 p {
-     font-size: 0,724em;
+     font-size: 0.724em;
      font-family : "arial";
      text-align; left;
      margin-left: 10px;
@@ -74,6 +80,10 @@ p {
          font-size: 0.500em;
          margin-right: 5px;
          margin-left: 5px;
+         margin-bottom: 10px;
+         display: block;
+         text-align: center;
+         word-wrap: break-word;
      }
 
 .creation {
@@ -103,7 +113,7 @@ background-color: pink;
      }
 
      div p {
-       font-size: 0.500em;
+       font-size: 0.800em;
       font-family : "Times";
     }
      /* background block colors  Class*/
